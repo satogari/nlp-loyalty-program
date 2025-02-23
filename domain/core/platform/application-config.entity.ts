@@ -1,3 +1,4 @@
+import { Entity } from "../common/entity.abstract";
 import ValueObject from "../common/value-object.abstract";
 
 class Id extends ValueObject<string> {

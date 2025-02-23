@@ -1,4 +1,6 @@
-abstract class Entity<T> {
+import { DomainEvent } from "./event.abstract";
+
+export abstract class Entity<T> {
     private _id: T;
     private _createdAt: Date;
     private _updatedAt: Date;

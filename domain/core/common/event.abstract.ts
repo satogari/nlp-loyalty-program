@@ -1,5 +1,5 @@
 // Base interface for all domain events
-interface DomainEvent {
+export interface DomainEvent {
     readonly occurredOn: Date;
     readonly eventVersion: number;
 }
