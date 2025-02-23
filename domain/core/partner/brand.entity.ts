@@ -1,6 +1,6 @@
 import { Entity } from "../common/entity.abstract";
 import ValueObject from "../common/value-object.abstract";
-import { Partner } from "./partner.enum";
+import { Partner } from "./enums/partner.enum";
 
 class BrandId extends ValueObject<string> {
 

@@ -1,34 +1,11 @@
 import { Entity } from "../common/entity.abstract";
-import { Partner as _Partner } from "./partner.enum";
-import ValueObject from "../common/value-object.abstract";
+import { Partner as _Partner } from "./enums/partner.enum";
+import Brand from "./vos/brand.vo";
+import Attachment from "./vos/attachment.vo";
+import TaxId from "./vos/tax-id.vo";
+import Title from "./vos/title.vo";
 
-class TaxId extends ValueObject<string> {
-}
-
-class Title extends ValueObject<string>{}
-
-
-type AttachmentT = {
-
-}
-
-type BrandT = {
-    id: string
-    nameTH: string
-    nameEN: string
-    category: _Partner.Brand.Category
-    subCategory: _Partner.Brand.SubCategory
-    totalBranches: number
-    totalBangkokBranches: number
-    totalUpcountryBranches: number
-}
-class Attachment extends ValueObject<AttachmentT>{
-
-}
-class Brand extends ValueObject<BrandT> {
-}
-
-class Partner extends Entity<TaxId> {
+export default class Partner extends Entity<TaxId> {
     constructor(
         private taxId: TaxId,
         private title: Title,
