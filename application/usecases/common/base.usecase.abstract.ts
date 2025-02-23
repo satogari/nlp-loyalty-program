@@ -1,4 +1,3 @@
-// Base error types
 export class DomainError {
     constructor(public readonly message: string) {}
 }
@@ -7,7 +6,6 @@ export class ApplicationError {
     constructor(public readonly message: string) {}
 }
 
-// Result with typed errors
 export class Result<T, E extends DomainError | ApplicationError> {
     private constructor(
         private readonly _value: T | null,
