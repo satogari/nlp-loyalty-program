@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:5.0 # Stable version of MongoDB
+    container_name: mongo-db
+    ports:
+      - "27017:27017" # Exposes MongoDB port to the host
+    volumes:
+      - mongo-data:/data/db # Persist database data across restarts
+    restart: always # Ensure the container always restarts unless explicitly stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+
+volumes:
+  mongo-data:
+    driver: local
