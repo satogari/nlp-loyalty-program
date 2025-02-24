@@ -7,7 +7,7 @@ class BrandId extends ValueObject<string> {
 }
 type Logo = {}
 
-export default class Branch extends Entity<BrandId> {
+export default class Brand extends Entity<BrandId> {
     constructor(
         private brandId: BrandId,
         private logo: Logo,

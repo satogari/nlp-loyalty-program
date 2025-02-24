@@ -4,6 +4,8 @@ import Brand from "./vos/brand.vo";
 import Attachment from "./vos/attachment.vo";
 import TaxId from "./vos/tax-id.vo";
 import Title from "./vos/title.vo";
+import AccountInformation from "./vos/account-information.vo";
+import Currency from "./vos/currency.vo";
 
 export default class Partner extends Entity<TaxId> {
     constructor(
@@ -19,9 +21,11 @@ export default class Partner extends Entity<TaxId> {
         private lastModifiedDate: string,
         private status: _Partner.Status,
         private vendorStatus: _Partner.VendorStatus,
+        private brands: Brand[],
+        private currency: Currency[],
         private branchCode?: string,
-        private brands?: Brand[],
-        private attachment?: Attachment
+        private attachment?: Attachment,
+        private accountInformation?: AccountInformation
     ) {
         super(taxId)
     }
