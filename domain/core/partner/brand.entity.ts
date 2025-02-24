@@ -2,10 +2,17 @@ import { Entity } from "../common/entity.abstract";
 import ValueObject from "../common/value-object.abstract";
 import { Partner } from "./enums/partner.enum";
 
-class BrandId extends ValueObject<string> {
-
+export class BrandId {
+    constructor(private value: string) {
+        if (!value) {
+            throw new Error("Brand ID must be provided");
+        }
+    }
 }
-type Logo = {}
+export type Logo = {
+    url: string
+    type: string
+}
 
 export default class Brand extends Entity<BrandId> {
     constructor(

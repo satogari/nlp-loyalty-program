@@ -1,0 +1,148 @@
+{
+    "header": {
+        "version": "2.0",
+        "timestamp": "2024-10-01T14:51:06.157Z",
+        "orgService": "Party",
+        "from": "Partner.Domain.Company",
+        "channel": "NLP",
+        "broker": "none",
+        "useCase": "createCompany",
+        "useCaseStep": "createCompany",
+        "useCaseAge": "0",
+        "session": "20241130dfu3Suwt9sa",
+        "transaction": "20241130dfu3Suwt9sa",
+        "communication": "unicast",
+        "groupTags": [],
+        "identity": {
+            "user": "@userLoginId"
+        },
+        "tmfSpec": "TMF632",
+        "baseApiVersion": "4.0.0",
+        "schemaVersion": "1.0.0",
+        "instanceData": ""
+    },
+    "body": {
+        "id": "kN7oIAJEmYd",
+        "isLegalEntity": true,
+        "isHeadOffice": true,
+        "organizationType": "company",
+        "name": "CompanyNameTH",
+        "existsDuring": {
+            "startDateTime": "2010-10-22T08:31:52.026Z",
+            "endDateTime": ""
+        },
+        "tradingName": "CompanyNameTH ชื่อทางการค้า",
+        "nameType": "Co., Ltd",
+        "status": "validated",
+        "externalReference": [
+            {
+                "name": "https://www.xxxxx.co.th",
+                "externalReferenceType": "internetSite"
+            }
+        ],
+        "otherName": [
+            {
+                "nameType": "Co., Ltd",
+                "tradingName": "CompanyNameEN ชื่อทางการค้า",
+                "name": "CompanyNameEN",
+                "validFor": {
+                    "startDateTime": "1970-10-22T00:00:00.000Z",
+                    "endDateTime": "1980-10-22T00:00:00.000Z"
+                }
+            }
+        ],
+        "partyCharacteristic": [
+            {
+                "name": "partnerId",
+                "value": "12345",
+                "valueType": "string"
+            },
+            {
+                "name": "branch number",
+                "value": "00000",
+                "valueType": "string"
+            },
+            {
+                "name": "business industry",
+                "value": "Food & Beverage",
+                "valueType": "string"
+            },
+            {
+                "name": "account owner",
+                "value": "anavin.v@ais.co.th",
+                "valueType": "string"
+            },
+            {
+                "name": "financeStatus",
+                "value": "rejected",
+                "valueType": "string"
+            },
+            {
+                "name": "rejected reason",
+                "value": "ขอข้อมูลเกี่ยวกับบริษทเพิ่มเติม",
+                "valueType": "string"
+            },
+            {
+                "name": "cpid",
+                "value": "12345",
+                "valueType": "string"
+            },
+            {
+                "name": "vendor code",
+                "value": "24198304871",
+                "valueType": "string"
+            }
+        ],
+        "organizationIdentification": [
+            {
+                "identificationType": "tax identification",
+                "identificationId": "1234567890127",
+                "identificationDisplay": "xxxxxxxxx0127",
+                "registrationDate": "2020-10-22T00:00:00.000Z",
+                "issuingAuthority": "The Revenue Department"
+            }
+        ],
+        "contactMedium": [
+            {
+                "preferred": false,
+                "mediumType": "contactAddress",
+                "geographicAddress": {
+                    "id": "iUdht9dyEDA",
+                    "@type": "ThaiPropertyAddress",
+                    "name": "Kentucky Siam Paragon G floor"
+                }
+            }
+        ],
+        "attachment": [
+            {
+                "attachmentType": "certifiedCopyOfBusinessRegistration",
+                "name": "TaxCertificate_v1.0.0.pdf",
+                "description": "สำเนาทะเบียนพาณิชย์ / ห้างหุ้นส่วนจำกัด",
+                "mimeType": "document",
+                "url": "xxxxx/file/TaxCertificate_v1.0.0.pdf"
+            },
+            {
+                "attachmentType": ".jpg",
+                "name": "สำเนาทะเบียนบ้าน_v1.0.0.jpg",
+                "description": "สำเนาทะเบียนบ้าน",
+                "mimeType": "image",
+                "url": "xxxxx/file/สำเนาทะเบียนบ้าน_v1.0.0.jpg"
+            }
+        ],
+        "partyRole": {
+            "id": "whulbyy2rgy",
+            "name": "Partner",
+            "status": "active",
+            "statusReason": "active",
+            "creationDate": "2024-11-27T09:56:53.421Z",
+            "lastModifiedTime": "2024-11-27T09:56:53.421Z",
+            "engagedParty": {
+                "id": "uagm-KmlD49",
+                "name": "Company01",
+                "@referredType": "organization"
+            },
+            "@baseType": "PartyRole",
+            "@type": "Partner"
+        }
+    }
+}

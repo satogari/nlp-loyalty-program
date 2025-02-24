@@ -1,9 +1,8 @@
-import ValueObject from "../../common/value-object.abstract";
-
-type AttachmentT = {
-
-}
-
-export default class Attachment extends ValueObject<AttachmentT>{
-
+export default class Attachment {
+    constructor(
+        private attachmentType: string,
+        private name: string,
+        private url: string,
+        private mimeType: string,
+    ) { }
 }

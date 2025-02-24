@@ -24,24 +24,24 @@ export default class Partner extends Entity<TaxId> {
         private brands: Brand[],
         private currency: Currency[],
         private branchCode?: string,
-        private attachment?: Attachment,
+        private attachments?: Attachment[],
         private accountInformation?: AccountInformation
     ) {
         super(taxId)
     }
     updateInformation(
-        taxId: TaxId, title: Title, nameTH: string, nameEN: string, owner: string, businessType: _Partner.BusinessType, lastModifiedBy: 
-        string, lastModifiedDate: string, branchNumber?: string) {
+        taxId: TaxId, title: Title, nameTH: string, nameEN: string, owner: string, businessType: _Partner.BusinessType, lastModifiedBy:
+            string, lastModifiedDate: string, branchNumber?: string) {
         this.markAsModified();
     }
-    updateAttachment(attachment: Attachment) {
-        this.attachment = attachment;
+    updateAttachment(attachments: Attachment[]) {
+        this.attachments = attachments;
     }
     updatePartnerStatus(status: _Partner.Status) {
         this.status = status;
         this.markAsModified();
     }
-    updateVendorStatus(vendorStatus: _Partner.VendorStatus){
+    updateVendorStatus(vendorStatus: _Partner.VendorStatus) {
         this.vendorStatus = vendorStatus;
         this.markAsModified();
     }
