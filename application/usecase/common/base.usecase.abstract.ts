@@ -1,16 +1,16 @@
 export class DomainError {
-    constructor(public readonly message: string) {}
+    constructor(public readonly message: string) { }
 }
 
 export class ApplicationError {
-    constructor(public readonly message: string) {}
+    constructor(public readonly message: string) { }
 }
 
 export class Result<T, E extends DomainError | ApplicationError> {
     private constructor(
         private readonly _value: T | null,
         private readonly _error: E | null
-    ) {}
+    ) { }
 
     public static ok<T, E extends DomainError | ApplicationError>(value: T): Result<T, E> {
         return new Result<T, E>(value, null);
