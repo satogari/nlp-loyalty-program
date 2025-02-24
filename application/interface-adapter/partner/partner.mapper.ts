@@ -40,7 +40,6 @@ export class PartnerMapper {
             [],                                   // currency - empty by default
             characteristics.branchNumber,         // branchCode
             attachments,                          // attachments
-            undefined                             // accountInformation - not in request
         );
     }
 
