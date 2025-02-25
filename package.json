@@ -12,5 +12,9 @@
   "description": "",
   "devDependencies": {
     "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "mongodb": "^6.13.1"
   }
 }

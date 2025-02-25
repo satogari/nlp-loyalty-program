@@ -1,6 +1,6 @@
 import Brand, { BrandId, Logo } from "../../../domain/core/partner/brand.entity";
 import { Partner } from "../../../domain/core/partner/enums/partner.enum";
-import { TMF632BrandResponse } from "./response/dto/tmf-632.dto.interface";
+import { TMF632BrandResponse } from "./tmf/response/dto/tmf-632.dto.interface";
 
 export class BrandMapper {
     // Method to map the raw response to the Brand entity

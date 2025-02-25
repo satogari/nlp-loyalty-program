@@ -1,0 +1,116 @@
+{
+    "_id": {
+        "_data": "8263D7F99E000000012B022C0100296E5A1004B74E376F4941454D595D00004"
+    },
+    "operationType": "insert",
+    "clusterTime": {
+        "$timestamp": {
+            "t": 1664634666,
+            "i": 1
+        }
+    },
+    "wallTime": "2024-10-01T14:51:06.157Z",
+    "ns": {
+        "db": "party",
+        "coll": "organizations"
+    },
+    "documentKey": {
+        "_id": "kN7oIAJEmYd"
+    },
+    "fullDocument": {
+        "_id": "kN7oIAJEmYd",
+        "isLegalEntity": true,
+        "isHeadOffice": true,
+        "organizationType": "merchant",
+        "name": "MerchantNameTH",
+        "existsDuring": {
+            "startDateTime": "2010-10-22T08:31:52.026Z",
+            "endDateTime": ""
+        },
+        "tradingName": "MerchantNameTH ชื่อทางการค้า",
+        "nameType": "Co., Ltd",
+        "status": "validated",
+        "externalReference": [
+            {
+                "name": "https://www.xxxxx.co.th",
+                "externalReferenceType": "internetSite"
+            }
+        ],
+        "otherName": [
+            {
+                "nameType": "Co., Ltd",
+                "tradingName": "MerchantNameEN ชื่อทางการค้า",
+                "name": "MerchantNameEN",
+                "validFor": {
+                    "startDateTime": "1970-10-22T00:00:00.000Z",
+                    "endDateTime": "1980-10-22T00:00:00.000Z"
+                }
+            }
+        ],
+        "partyCharacteristic": [
+            {
+                "name": "brandId",
+                "value": "12345",
+                "valueType": "string"
+            }
+        ],
+        "organizationIdentification": [
+            {
+                "identificationType": "tax identification",
+                "identificationId": "1234567890127",
+                "identificationDisplay": "xxxxxxxxx0127",
+                "registrationDate": "2020-10-22T00:00:00.000Z",
+                "issuingAuthority": "The Revenue Department"
+            }
+        ],
+        "organizationParentRelationship": {
+            "relationshipType": "company",
+            "organization": {
+                "id": "HbV6fUts46l",
+                "name": "CompanyNameTH",
+                "@referredType": "Organization"
+            }
+        },
+        "contactMedium": [
+            {
+                "preferred": false,
+                "mediumType": "contactAddress",
+                "geographicAddress": {
+                    "id": "iUdht9dyEDA",
+                    "@type": "ThaiPropertyAddress",
+                    "name": "Kentucky Siam Paragon G floor"
+                }
+            }
+        ],
+        "attachment": [
+            {
+                "attachmentType": "certifiedCopyOfBusinessRegistration",
+                "name": "TaxCertificate_v1.0.0.pdf",
+                "description": "สำเนาทะเบียนพาณิชย์ / ห้างหุ้นส่วนจำกัด",
+                "mimeType": "document",
+                "url": "xxxxx/file/TaxCertificate_v1.0.0.pdf"
+            },
+            {
+                "attachmentType": ".jpg",
+                "name": "สำเนาทะเบียนบ้าน_v1.0.0.jpg",
+                "description": "สำเนาทะเบียนบ้าน",
+                "mimeType": "image",
+                "url": "xxxxx/file/สำเนาทะเบียนบ้าน_v1.0.0.jpg"
+            }
+        ],
+        "metadata": {
+            "version": "2.0",
+            "timestamp": "2024-10-01T14:51:06.157Z",
+            "orgService": "Party",
+            "from": "Partner.Domain.Company",
+            "channel": "NLP",
+            "useCase": "createMerchant",
+            "useCaseStep": "createMerchant",
+            "session": "20241130dfu3Suwt9sa",
+            "transaction": "20241130dfu3Suwt9sa",
+            "tmfSpec": "TMF632",
+            "baseApiVersion": "4.0.0",
+            "schemaVersion": "1.0.0"
+        }
+    }
+}
