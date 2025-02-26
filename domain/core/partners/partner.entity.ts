@@ -1,4 +1,4 @@
-import { Entity } from "../common/entity.abstract";
+import { Entity } from "../../common/entity.abstract";
 import { Partner as _Partner } from "./enums/partner.enum";
 import Brand from "./vos/brand.vo";
 import Attachment from "./vos/attachment.vo";

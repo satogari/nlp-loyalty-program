@@ -1,5 +1,5 @@
 import { Partner } from "../enums/partner.enum";
-import ValueObject from "../../common/value-object.abstract";
+import ValueObject from "../../../common/value-object.abstract";
 
 type BrandT = {
     id: string

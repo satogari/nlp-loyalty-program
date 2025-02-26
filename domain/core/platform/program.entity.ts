@@ -1,5 +1,3 @@
-import ValueObject from "../common/value-object.abstract"
-
 type ProgramType = 'Telecome Service Provider' | 'E-Commerce'
 type Logo = string
 type ProgramColor = string
@@ -22,9 +20,9 @@ type PartnerCurrency = Currency & {
     partnerName: string
 }
 
-class ProgramId extends ValueObject<ProgramId> {}
+class ProgramId {}
 
-export default class Program extends Entity<ProgramId> {
+export default class Program {
     constructor(
         private programId: ProgramId,
         private name: string,
@@ -33,17 +31,5 @@ export default class Program extends Entity<ProgramId> {
         private color: ProgramColor,
         private currencies: Currency[]
     ) {
-        super(programId)
-    }
-
-    public override equals(object?: Entity<ProgramId>): boolean {
-        if (!super.equals(object)) return false;
-
-        if (!(object instanceof Program)) return false;
-
-        // Additional Program-specific equality checks
-        return this.programId.equals(object.programId) &&
-            this.name === object.name &&
-            this.type === object.type
     }
 }
