@@ -1,17 +1,15 @@
-import { Entity } from "../common/entity.abstract";
 import { Partner } from "./enums/partner.enum";
 import Branch from "./vos/branch.vo";
 
-export default class Brand extends Entity<BrandId> {
+export default class Brand {
     constructor(
-        private brandId: BrandId,
+        private id: BrandId,
         private logo: Logo,
         private nameTH: string,
         private category: Partner.Brand.Category,
         private subCategory: Partner.Brand.SubCategory,
         private branches: Branch[]
     ) {
-        super(brandId);
     }
 }
 

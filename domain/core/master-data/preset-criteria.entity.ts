@@ -1,10 +1,9 @@
 import { Entity } from "../common/entity.abstract";
 
 type PresetCriteriaId = string
-export default class PresetCriteria extends Entity<PresetCriteriaId> {
+export default class PresetCriteria  {
     constructor(
-        private presetCriteriaId: PresetCriteriaId,
+        private id: PresetCriteriaId,
     ) {
-        super(presetCriteriaId)
     }
 }

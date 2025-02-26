@@ -24,16 +24,14 @@ class Message extends ValueObject<string> {
     }
 }
 
-export default class ApplicationConfig extends Entity<Id> {
+export default class ApplicationConfig {
     constructor(
-        private applicationConfigId: Id,
+        private id: Id,
         private name: Name, private value: Value, private message: Message
     ){
-        super(applicationConfigId);
     }
     update(value: Value, message: Message){
         this.value = value;
         this.message = message;
-        this.markAsModified();
     }
 }

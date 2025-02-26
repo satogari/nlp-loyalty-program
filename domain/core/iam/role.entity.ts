@@ -7,19 +7,17 @@ type RoleId = string;
 
 class Name extends ValueObject<string> {
 }
-export default class Role extends Entity<RoleId> {
+export default class Role {
     constructor(
-        private roleId: RoleId,
+        private id: RoleId,
         private name: string,
         private permissions: Permission[],
         private modifiedBy: User,
         private modifiedDate: Date,
     ) {
-        super(roleId)
     }
     edit(name: string, permissions: Permission[]) {
         this.name = name
         this.permissions = permissions
-        this.markAsModified()
     }
 }

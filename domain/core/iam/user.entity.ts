@@ -15,21 +15,18 @@ class Role extends ValueObject<string> {
 
 class Password extends ValueObject<string> {
 }
-export class User extends Entity<UserId> {
+export class User {
     constructor(
-        private userId: UserId,
+        private id: UserId,
         private email: Email,
         private password: Password,
         private confirmPassword: Password,
         private role: Role,
         private status: _User.Status
-    ) {
-        super(userId);
-    }
+    ) {}
     edit(email: Email, role: Role, status: _User.Status) {
         this.email = email;
         this.role = role;
         this.status = status;
-        this.markAsModified();
     }
 }

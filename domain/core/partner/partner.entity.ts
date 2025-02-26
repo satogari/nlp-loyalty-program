@@ -7,9 +7,9 @@ import Title from "./vos/title.vo";
 import AccountInformation from "./vos/account-information.vo";
 import Currency from "./vos/currency.vo";
 
-export default class Partner extends Entity<TaxId> {
+export default class Partner {
     constructor(
-        private taxId: TaxId,
+        private id: TaxId,
         private title: Title,
         private nameTH: string,
         private nameEN: string,
@@ -27,22 +27,18 @@ export default class Partner extends Entity<TaxId> {
         private attachments?: Attachment[],
         private accountInformation?: AccountInformation
     ) {
-        super(taxId)
     }
     updateInformation(
         taxId: TaxId, title: Title, nameTH: string, nameEN: string, owner: string, businessType: _Partner.BusinessType, lastModifiedBy:
             string, lastModifiedDate: string, branchNumber?: string) {
-        this.markAsModified();
     }
     updateAttachment(attachments: Attachment[]) {
         this.attachments = attachments;
     }
     updatePartnerStatus(status: _Partner.Status) {
         this.status = status;
-        this.markAsModified();
     }
     updateVendorStatus(vendorStatus: _Partner.VendorStatus) {
         this.vendorStatus = vendorStatus;
-        this.markAsModified();
     }
 }
