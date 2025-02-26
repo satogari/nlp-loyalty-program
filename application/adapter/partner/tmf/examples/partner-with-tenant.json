@@ -1,0 +1,121 @@
+    {
+        "id": "cEhRYNx7Rbs",
+        "href": "/tmf-api/party/v4/organization/cEhRYNx7Rbs",
+        "isHeadOffice": true,
+        "isLegalEntity": true,
+        "name": "บริษัท ปตท. น้ำมันและการค้าปลีก จำกัด (มหาชน)",
+        "nameType": "บจก. (มหาชน)",
+        "organizationType": "company",
+        "tradingName": "PTT",
+        "relatedParty": [
+            {
+                "role": "Tanent", // tenant
+                "@type": "RelatedPartyRefOrPartyRoleRef",
+                "partyOrPartyRole": {
+                    "id": "4285269446201",
+                    "href": "https://serverRoot/tmf-api/party/v5/organization/4285269446201",
+                    "name": "MIMO Tech",
+                    "@type": "PartyRef",
+                    "@referredType": "Organization"
+                }
+            }
+        ],
+        "organizationChildRelationship": [ // brand
+            {
+                "relationshipType": "subsidiary",
+                "organization": {
+                    "id": "Z5jdHi6B7my",
+                    "href": "/tmf-api/party/v4/organization/Z5jdHi6B7my",
+                    "name": "ร้านคาเฟ่ อเมซอน",
+                    "@baseType": "OrganizationRef",
+                    "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationRef",
+                    "@type": "OrganizationRef",
+                    "@referredType": "Organization"
+                },
+                "@baseType": "OrganizationChildRelationship",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationChildRelationship",
+                "@type": "OrganizationChildRelationship"
+            }
+        ],
+        "organizationIdentification": [
+            {
+                "identificationId": "0107544000108",
+                "identificationType": "tax identification",
+                "issuingAuthority": "The Revenue Department",
+                "issuingDate": "1980-10-22T07:00:00+07:00",
+                "@baseType": "OrganizationIdentification",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationIdentification",
+                "@type": "OrganizationIdentification"
+            }
+        ],
+        "partyCharacteristic": [
+            {
+                "name": "partnerId",
+                "valueType": "string",
+                "value": "45673",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            },
+            {
+                "name": "branch number",
+                "valueType": "string",
+                "value": "00000",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            },
+            {
+                "name": "business industry",
+                "valueType": "string",
+                "value": "Oil and Retail Business",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            },
+            {
+                "name": "account owner",
+                "valueType": "string",
+                "value": "ptt@ais.co.th",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            },
+            {
+                "name": "financeStatus",
+                "valueType": "string",
+                "value": "rejected",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            },
+            {
+                "name": "rejected reason",
+                "valueType": "string",
+                "value": "ขอข้อมูลเกี่ยวกับบริษทเพิ่มเติม",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            },
+            {
+                "name": "cpid",
+                "valueType": "string",
+                "value": "45673",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            },
+            {
+                "name": "vendor code",
+                "valueType": "string",
+                "value": "45673202421",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            }
+        ],
+        "status": "validated",
+        "@baseType": "Organization",
+        "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Organization",
+        "@type": "Organization"
+    }

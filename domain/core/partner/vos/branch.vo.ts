@@ -1,9 +1,6 @@
-import { Entity } from "../common/entity.abstract";
-
-type BranchId = {}
-export default class Branch extends Entity<BranchId> {
+export default class Branch {
     constructor(
-        private branchId: BranchId,
+        private id: string,
         private nameTH: string,
         private nameEN?: string,
         private location?: string,
@@ -15,6 +12,5 @@ export default class Branch extends Entity<BranchId> {
         private latitude?: string,
         private longitude?: string,
     ) {
-        super(branchId)
     }
 }

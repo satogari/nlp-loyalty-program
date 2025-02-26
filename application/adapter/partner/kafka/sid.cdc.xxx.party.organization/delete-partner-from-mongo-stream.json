@@ -1,0 +1,48 @@
+{
+    "_id": {
+        "_data": "8267219DB8000000022B042C0100296E5A100408A63159E0CB4D84AA4934AFB74B8827463C6F7065726174696F6E54797065003C64656C6574650046646F63756D656E744B65790046645F6964006467219B7E8BFAFF5B1786BEF7000004"
+    },
+    "operationType": "delete",
+    "clusterTime": {
+        "$timestamp": "7431394273737572354"
+    },
+    "wallTime": "2024-10-30T02:45:12.473Z",
+    "ns": {
+        "db": "party",
+        "coll": "organization"
+    },
+    "documentKey": {
+        "_id": "67219b7e8bfaff5b1786bef7"
+    },
+    "fullDocumentBeforeChange": {
+        "_id": "67219b7e8bfaff5b1786bef7",
+        "isLegalEntity": true,
+        "isHeadOffice": false,
+        "organizationType": "merchant",
+        "name": "เคเอฟซี ประเทศไทย (เครือ เซ็นทรัล)",
+        "tradingName": "KFC",
+        "nameType": "Co., Ltd",
+        "status": "validated",
+        "organizationIdentification": [
+            {
+                "identificationType": "tax identification",
+                "identificationId": "4175f9e37f574217a2f6d441a436387ce4c1790f6e3d4404246a48557417d873",
+                "identificationDisplay": "xxxxxxxxx4012",
+                "registrationDate": "2024-10-01T00:00:00.000Z",
+                "issuingAuthority": "The Revenue Department"
+            }
+        ],
+        "organizationParentRelationship": {
+            "relationshipType": "company",
+            "organization": {
+                "id": "HbV6fUts46l",
+                "name": "บริษัท เซ็นทรัล เรสตอรองส์ กรุ๊ป จำกัด",
+                "@referredType": "Organization"
+            }
+        },
+        "id": "dOrkWelnKrG_test_test",
+        "uuid": "Lj6uQoGtiSW_test_test",
+        "@type": "Organization_test_test",
+        "ts": "67178011c3f376f9ca32877e"
+    }
+}

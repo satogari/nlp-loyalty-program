@@ -1,5 +1,6 @@
 import { Entity } from "../common/entity.abstract";
 import { Partner } from "./enums/partner.enum";
+import Branch from "./vos/branch.vo";
 
 export default class Brand extends Entity<BrandId> {
     constructor(
@@ -8,6 +9,7 @@ export default class Brand extends Entity<BrandId> {
         private nameTH: string,
         private category: Partner.Brand.Category,
         private subCategory: Partner.Brand.SubCategory,
+        private branches: Branch[]
     ) {
         super(brandId);
     }

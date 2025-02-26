@@ -1,0 +1,176 @@
+[
+    {
+        "id": "QxmY3W7VvTB",
+        "href": "/tmf-api/party/v4/organization/QxmY3W7VvTB",
+        "name": "สมมุติ-nlp-01 สมมุติ-nlp-01",
+        "nameType": "MR",
+        "organizationType": "individual",
+        "tradingName": "สมมุติ-nlp-01 สมมุติ-nlp-01",
+        "existsDuring": {
+            "startDateTime": "2025-02-24T17:32:38.825+07:00"
+        },
+        "organizationIdentification": [
+            {
+                "@type": "OrganizationIdentification",
+                "identificationId": "00344856be63a82e068c443fb6f40c3cdb5eb78ee8309a9b8ff5a79525b30fb0",
+                "identificationType": "nationalIdentityCard",
+                "issuingAuthority": "The Revenue Department",
+                "@baseType": "OrganizationIdentification",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationIdentification",
+                "identificationDisplay": "xxxxxxxxx0fb0",
+                "registrationDate": "2025-02-24T17:32:38.825+07:00",
+                "identificationIdEncrypted": "{Subtype=6, Data=Ac8+22B1skyNsjejZcZO5SkCxzMD9YKROxT9Qi6oYaqfMntMpW66GCI+81DzUjtrUGYxgDIcuT3cY0MximHwGhSuQL8ubbz7fyX/bYM4DrZp9nmtYxjlGNBzXL1wsDxzXaM=}"
+            }
+        ],
+        "otherName": [
+            {
+                "name": "สมมุติ-nlp-01 สมมุติ-nlp-01",
+                "nameType": "MR",
+                "tradingName": "-",
+                "validFor": {
+                    "endDateTime": "2025-02-24T17:32:38.825+07:00",
+                    "startDateTime": "2025-02-24T17:32:38.825+07:00"
+                },
+                "@baseType": "OtherNameOrganization",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OtherNameOrganization",
+                "@type": "OtherNameOrganization"
+            }
+        ],
+        "partyCharacteristic": [
+            {
+                "name": "accountOwner",
+                "valueType": "string",
+                "value": "test.user@abcdefg.com",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            }
+        ],
+        "relatedParty": [
+            {
+                "id": "Lp6zmJ2SG0h",
+                "href": "/tmf-api/partyRoleManagement/v4/partyRole/Lp6zmJ2SG0h",
+                "name": "holder",
+                "role": "Partner",
+                "@baseType": "RelatedParty",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/RelatedParty",
+                "@type": "RelatedParty",
+                "@referredType": "PartyRole"
+            }
+        ],
+        "@baseType": "Organization",
+        "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Organization",
+        "@type": "TORO_Organization"
+    },
+    {
+        "id": "Am341lewWAS",
+        "href": "/tmf-api/party/v4/organization/Am341lewWAS",
+        "name": "สมมุติชื่อ สมมุติ นามสกุล",
+        "nameType": "MRS",
+        "organizationType": "individual",
+        "tradingName": "สมมุติชื่อ สมมุติ นามสกุล",
+        "existsDuring": {
+            "startDateTime": "2025-02-21T16:33:45.658+07:00"
+        },
+        "organizationChildRelationship": [
+            {
+                "relationshipType": "merchant",
+                "organization": {
+                    "id": "KRmOvivNqt1",
+                    "href": "/tmf-api/party/v4/organization/KRmOvivNqt1",
+                    "name": "เทสสร้างแบรนด์ไทย",
+                    "@baseType": "OrganizationRef",
+                    "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationRef",
+                    "@type": "OrganizationRef",
+                    "@referredType": "Organization"
+                },
+                "@baseType": "OrganizationChildRelationship",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationChildRelationship",
+                "@type": "OrganizationChildRelationship"
+            },
+            {
+                "relationshipType": "merchant",
+                "organization": {
+                    "id": "00KSOUmNst4",
+                    "href": "/tmf-api/party/v4/organization/00KSOUmNst4",
+                    "name": "เทสสร้างแบรนด์ไทย",
+                    "@baseType": "OrganizationRef",
+                    "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationRef",
+                    "@type": "OrganizationRef",
+                    "@referredType": "Organization"
+                },
+                "@baseType": "OrganizationChildRelationship",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationChildRelationship",
+                "@type": "OrganizationChildRelationship"
+            },
+            {
+                "relationshipType": "merchant",
+                "organization": {
+                    "id": "e5n6pOqp68B",
+                    "href": "/tmf-api/party/v4/organization/e5n6pOqp68B",
+                    "name": "เทสสร้างแบรนด์ไทย v2",
+                    "@baseType": "OrganizationRef",
+                    "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationRef",
+                    "@type": "OrganizationRef",
+                    "@referredType": "Organization"
+                },
+                "@baseType": "OrganizationChildRelationship",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationChildRelationship",
+                "@type": "OrganizationChildRelationship"
+            }
+        ],
+        "organizationIdentification": [
+            {
+                "@type": "OrganizationIdentification",
+                "identificationId": "5c4ddcbd96f57e177faef6b5a3f2491c30865e2ee51b431e2403d952a3e8786b",
+                "identificationType": "nationalIdentityCard",
+                "issuingAuthority": "The Revenue Department",
+                "@baseType": "OrganizationIdentification",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OrganizationIdentification",
+                "identificationDisplay": "xxxxxxxxx786b",
+                "registrationDate": "2025-02-21T16:33:45.658+07:00",
+                "identificationIdEncrypted": "{Subtype=6, Data=Ac8+22B1skyNsjejZcZO5SkC0M1B/C8NFctROahTwQUm/sfjekKfMJMMKldoFyLgaeJoARImTDi6r53qOfH0WFCMY3PN8KJ32zXnel/tJFy2ammUZPOZfkJXM6iXVevMzBs=}"
+            }
+        ],
+        "otherName": [
+            {
+                "name": "sommut lastname",
+                "nameType": "MRS",
+                "tradingName": "-",
+                "validFor": {
+                    "endDateTime": "2025-02-21T16:33:45.658+07:00",
+                    "startDateTime": "2025-02-21T16:33:45.658+07:00"
+                },
+                "@baseType": "OtherNameOrganization",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/OtherNameOrganization",
+                "@type": "OtherNameOrganization"
+            }
+        ],
+        "partyCharacteristic": [
+            {
+                "name": "accountOwner",
+                "valueType": "string",
+                "value": "test.user@abcdefg.com",
+                "@baseType": "Characteristic",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Characteristic",
+                "@type": "Characteristic"
+            }
+        ],
+        "relatedParty": [
+            {
+                "id": "K9WrANWzioe",
+                "href": "/tmf-api/partyRoleManagement/v4/partyRole/K9WrANWzioe",
+                "name": "holder",
+                "role": "Partner",
+                "@baseType": "RelatedParty",
+                "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/RelatedParty",
+                "@type": "RelatedParty",
+                "@referredType": "PartyRole"
+            }
+        ],
+        "status": "validated",
+        "@baseType": "Organization",
+        "@schemaLocation": "http://private-d03-dev.adldigitalservice.com:8081/management/api/TMF632-Party-v4.0.0.swagger.json#/definitions/Organization",
+        "@type": "TORO_Organization"
+    }
+]

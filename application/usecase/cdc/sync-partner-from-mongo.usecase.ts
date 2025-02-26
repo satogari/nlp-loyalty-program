@@ -109,17 +109,6 @@ export default class CdcSyncPartnerUseCase {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 interface PartnerRepository {
     findById(taxId: TaxId): Promise<Partner | null>;
     save(partner: Partner): Promise<Partner>;

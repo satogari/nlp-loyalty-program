@@ -1,0 +1,197 @@
+{
+    "header": {
+        "version": "2.0",
+        "timestamp": "2025-02-21T14:51:06.157Z",
+        "orgService": "Party",
+        "from": "Partner.Domain.Company",
+        "channel": "NLP",
+        "broker": "none",
+        "useCase": "createCompany",
+        "useCaseStep": "createCompany",
+        "useCaseAge": "0",
+        "session": "20250221PT01",
+        "transaction": "20250221PT01",
+        "communication": "unicast",
+        "groupTags": [],
+        "identity": {
+            "user": "@userLoginId"
+        },
+        "tmfSpec": "TMF632",
+        "baseApiVersion": "4.0.0",
+        "schemaVersion": "1.0.0",
+        "instanceData": ""
+    },
+    "body": {
+        "isLegalEntity": true,
+        "isHeadOffice": true,
+        "organizationType": "company",
+        "name": "P2101anyNameTH",
+        "existsDuring": {
+            "startDateTime": "2010-10-22T08:31:52.026Z",
+            "endDateTime": ""
+        },
+        "tradingName": "P2101anyNameTH ชื่อทางการค้า",
+        "nameType": "Co., Ltd",
+        "status": "validated",
+        "externalReference": [
+            {
+                "name": "https://www.xxxxx.co.th",
+                "externalReferenceType": "internetSite"
+            }
+        ],
+        "otherName": [
+            {
+                "nameType": "Co., Ltd",
+                "tradingName": "P2101CompanyNameEN ชื่อทางการค้า",
+                "name": "P2101CompanyNameEN",
+                "validFor": {
+                    "startDateTime": "1970-10-22T00:00:00.000Z",
+                    "endDateTime": "1980-10-22T00:00:00.000Z"
+                }
+            }
+        ],
+        "partyCharacteristic": [
+            {
+                "name": "branchNumber",
+                "valueType": "string",
+                "value": "00000"
+            },
+            {
+                "name": "businessIndustry",
+                "valueType": "string",
+                "value": "Food & Beverage"
+            },
+            {
+                "name": "accountOwner",
+                "valueType": "string",
+                "value": "eiei.P4@ais.co.th"
+            },
+            {
+                "name": "vendorStatus",
+                "valueType": "string",
+                "value": "Processing"
+            }
+        ],
+        "organizationIdentification": [
+            {
+                "identificationType": "tax identification",
+                "identificationId": "1234567426823",
+                "identificationDisplay": "xxxxxxxxx6823",
+                "registrationDate": "2020-10-22T00:00:00.000Z",
+                "issuingAuthority": "The Revenue Department"
+            }
+        ],
+        "contactMedium": [
+            {
+                "preferred": false,
+                "mediumType": "contactAddress",
+                "geographicAddress": {
+                    "@type": "ThaiPropertyAddress",
+                    "name": "Kentucky Siam Paragon G floor",
+                    "streetNr": "991/1",
+                    "streetName": "Rama 1",
+                    "subLocality": "Phathumwan",
+                    "locality": "Phathumwan",
+                    "stateOrProvince": "Bangkok",
+                    "postcode": "10330",
+                    "country": "Thailand",
+                    "geographicSubAddress": [
+                        {
+                            "buildingName": "Siam Paragon",
+                            "levelNumber": "G",
+                            "levelType": "floor",
+                            "subUnitNumber": "G0001"
+                        }
+                    ],
+                    "geographicLocation": {
+                        "name": "Kentucky Siam Paragon G floor",
+                        "@type": "TORO_GeoJsonPoint",
+                        "TORO_geoHash": "w4rw0j0ucups",
+                        "geoJson": {
+                            "type": "Point",
+                            "coordinates": [
+                                13.7392409,
+                                100.5479903
+                            ],
+                            "@type": "Point"
+                        }
+                    },
+                    "TORO_availableFor": {
+                        "myAIS": true
+                    },
+                    "TORO_supportingLanguage": [
+                        {
+                            "languageCode": "th",
+                            "@type": "ThaiPropertyAddress",
+                            "name": "เคเอฟซี สาขาสยามพารากอน ชั้น G",
+                            "streetNr": "991/1",
+                            "streetName": "พระรามที่ 1",
+                            "subLocality": "ปทุมวัน",
+                            "locality": "ปทุมวัน",
+                            "stateOrProvince": "กรุงเทพฯ",
+                            "postcode": "10330",
+                            "country": "ประเทศไทย",
+                            "geographicLocation": {
+                                "name": "เคเอฟซี สาขาสยามพารากอน ชั้น G",
+                                "@type": "TORO_GeoJsonPoint",
+                                "TORO_geoHash": "w4rw0j0ucups",
+                                "geoJson": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        13.7392409,
+                                        100.5479903
+                                    ],
+                                    "@type": "Point"
+                                }
+                            },
+                            "geographicSubAddress": [
+                                {
+                                    "buildingName": "สยามพารากอน",
+                                    "levelNumber": "G",
+                                    "levelType": "ชั้น",
+                                    "subUnitNumber": "G0001"
+                                }
+                            ],
+                            "TORO_availableFor": {
+                                "myAIS": true
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "attachment": [
+            {
+                "attachmentType": "certifiedCopyOfBusinessRegistration",
+                "name": "TaxCertificate_v1.0.0.pdf",
+                "description": "สำเนาทะเบียนพาณิชย์ / ห้างหุ้นส่วนจำกัด",
+                "mimeType": "document",
+                "url": "xxxxx/file/TaxCertificate_v1.0.0.pdf"
+            },
+            {
+                "attachmentType": "certifiedCopyOfBusinessRegistration",
+                "name": "TaxCertificate_v1.0.0.pdf",
+                "description": "สำเนาทะเบียนพาณิชย์ / ห้างหุ้นส่วนจำกัด",
+                "mimeType": "document",
+                "url": "xxxxx/file/TaxCertificate_v1.0.0.pdf"
+            }
+        ],
+        "partyRole": {
+            "name": "Partner",
+            "status": "active",
+            "statusReason": "active",
+            "engagedParty": {
+                "name": "P2101anyNameTH",
+                "@referredType": "organization"
+            },
+            "channel": [
+                {
+                    "id": "gHd49Jfatri",
+                    "role": "Onboard Partner",
+                    "name": "NLP"
+                }
+            ],
+            "@type": "Partner"
+        }
+    }
+}
